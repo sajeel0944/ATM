@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import chalk from "chalk";
 import inquirer from "inquirer";
 console.log(chalk.magentaBright.bgYellow.bold("\n\t\t Welcome To SUK ATM \n"));
