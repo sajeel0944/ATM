@@ -1,6 +1,7 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
 console.log(chalk.magentaBright.bgYellow.bold("\n\t\t Welcome To SUK ATM \n"));
+console.log(chalk.blueBright("My Pin Password is : 446688\n"));
 let currentBalance = 25000;
 let mypin = 446688;
 let pinAnswer = await inquirer.prompt([
